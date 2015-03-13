@@ -1,5 +1,5 @@
 # random-splash-image
-<pre>It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).</pre>
+It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).
 
 ## Other Languare Manual:
 - [English](README.md)
@@ -9,8 +9,8 @@
 ![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-1.png)
 ![screenshot 2](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-2.png)
 
-# How to use (configure)
-Make dircetory for your favorite pictures, and copy pictures to there.
+# How to use (config)
+Make directory for your favorite pictures, and copy pictures to there.
 ```
 mkdir $HOME/.emacs.d/splash-images
 cp $HOME/Pictures/my_no001_picture.png $HOME/.emacs.d/splash-images
@@ -24,16 +24,16 @@ Then, write below to your init.el:
 ```
 
 # How to use(others)
-<pre>If you want to open GNU Emacs buffer again, but with other picture, then kill GNU Emacs buffer and execute below command.</pre>
+If you want to open GNU Emacs buffer again, but with other picture, then kill GNU Emacs buffer and execute below command.
 ```
 M-x random-splash-image-reopen-screen
 ```
 
 # FAQ
-- Q. My pictures doesn't appear! / <pre>GNU Emacs</pre> buffer disappeared after installation!
-  - A. If used incorrectly startup buffer might disapear. Try them:
+- Q. My pictures doesn't appear! / GNU Emacs buffer disappeared after installation!
+  - A. If used incorrectly, startup buffer might disappear. Try them:
     - Is random-splash-image-dir variable valid? Check by M-x describe-variable.
-    - Can your picture opened by emacs? Try to open directry.
+    - Can your picture opened by emacs? Try to open directly.
 
 # TODO
 - [ ] Packaging
