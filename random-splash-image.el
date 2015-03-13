@@ -1,4 +1,4 @@
-;;; random-splash-image.el --- Randomly sets splash image to *GNU Emacs* buffer on startup.  -*- lexical-binding: t; -*-
+;;; random-splash-image.el --- Randomly sets splash image to *GNU Emacs* buffer on startup.
 
 ;; Copyright (C) 2015  kakakaya
 
@@ -33,7 +33,11 @@
 
 ;;; Code:
 (defcustom random-splash-image-dir nil
-  "directory to find splash image randomly.")
+  "directory to find splash image randomly."
+  :group 'fancy-splash-screen
+  :type '(choice
+          (const     :tag "None" nil)
+          (directory :tag "Directory")))
 
 (defun random-splash-image-elt (choices)
   (elt choices (random (length choices))))
@@ -42,7 +46,7 @@
   (random-splash-image-elt (directory-files img-dir t "^\\([^.]\\|\\.[^.]\\|\\.\\..\\)")))
 
 (defun random-splash-image-set ()
-  (if (eq random-splash-image-dir nil)
+  (if (null random-splash-image-dir)
       (message "Please set value to random-splash-image-dir, otherwise random-splash-image won't work.")
     (setq fancy-splash-image (random-splash-image-choose-image random-splash-image-dir))))
 
