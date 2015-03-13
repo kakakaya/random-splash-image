@@ -1,4 +1,5 @@
 # random-splash-image
+[![MELPA](http://melpa.org/packages/random-splash-image-badge.svg)](http://melpa.org/#/random-splash-image)
 It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).
 
 ## Other Languare Manual:
@@ -36,5 +37,5 @@ M-x random-splash-image-reopen-screen
     - Can your picture opened by emacs? Try to open directly.
 
 # TODO
-- [ ] Packaging
+- [x] Packaging
 - [ ] Over-Network splash image(really need?)

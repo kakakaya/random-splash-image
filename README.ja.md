@@ -1,4 +1,5 @@
 # random-splash-image
+[![MELPA](http://melpa.org/packages/random-splash-image-badge.svg)](http://melpa.org/#/random-splash-image)
 Emacsの起動画面(GNU Emacsバッファ)の画像を指定したフォルダの中からランダムに選択し、表示します。
 
 ## 他言語版マニュアル:
@@ -37,6 +38,5 @@ M-x random-splash-image-reopen-screen
     - 表示しようとしていた画像を直接Emacsで表示できるか確認してください。
 
 # TODO
-- [ ] パッケージ化
+- [x] パッケージ化
 - [ ] ネットワーク越しに画像フォルダを指定(必要？)
-
