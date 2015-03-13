@@ -3,7 +3,7 @@ It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).
 
 ## Other Languare Manual:
 - [English](README.md)
-- [ÆüËÜ¸ì](README.ja.md)
+- [æ—¥æœ¬èªž](README.ja.md)
 
 # Screenshots
 ![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-1.png)
