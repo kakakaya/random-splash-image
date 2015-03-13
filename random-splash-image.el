@@ -41,7 +41,6 @@
   (random-splash-image-elt (directory-files img-dir t "^\\([^.]\\|\\.[^.]\\|\\.\\..\\)")))
 
 (defun random-splash-image-set ()
-  (interactive)
   (if (eq random-splash-image-dir nil)
       (message "Please set value to random-splash-image-dir, otherwise random-splash-image won't work.")
     (setq fancy-splash-image (random-splash-image-choose-image random-splash-image-dir))))
