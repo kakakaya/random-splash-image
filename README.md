@@ -1,5 +1,5 @@
 # random-splash-image
-<pre>It randomizes Emacs's splash image on startup screen(*GNU Emacs* buffer).</pre>
+<pre>It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).</pre>
 
 ## Other Languare Manual:
 - [English](README.md)
@@ -24,13 +24,13 @@ Then, write below to your init.el:
 ```
 
 # How to use(others)
-<pre>If you want to open *GNU Emacs* buffer again, but with other picture, then kill *GNU Emacs* buffer and execute below command.</pre>
+<pre>If you want to open GNU Emacs buffer again, but with other picture, then kill GNU Emacs buffer and execute below command.</pre>
 ```
 M-x random-splash-image-reopen-screen
 ```
 
 # FAQ
-- Q. My pictures doesn't appear! / <pre>*GNU Emacs*</pre> buffer disappeared after installation!
+- Q. My pictures doesn't appear! / <pre>GNU Emacs</pre> buffer disappeared after installation!
   - A. If used incorrectly startup buffer might disapear. Try them:
     - Is random-splash-image-dir variable valid? Check by M-x describe-variable.
     - Can your picture opened by emacs? Try to open directry.
