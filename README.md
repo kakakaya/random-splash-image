@@ -5,6 +5,10 @@
 - [English](README.md)
 - [日本語](README.ja.md)
 
+# Screenshots
+![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-1.png)
+![screenshot 2](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-2.png)
+
 # How to use (configure)
 Make dircetory for your favorite pictures, and copy pictures to there.
 ```
@@ -32,6 +36,6 @@ M-x random-splash-image-reopen-screen
     - Can your picture opened by emacs? Try to open directry.
 
 # TODO
-- [] Packaging
-- [] Over-Network splash image(really need?)
+- [ ] Packaging
+- [ ] Over-Network splash image(really need?)
 

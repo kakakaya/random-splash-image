@@ -5,6 +5,10 @@
 - [English](README.md)
 - [日本語](README.ja.md)
 
+# Screenshots
+![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-1.png)
+![screenshot 2](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-2.png)
+
 # 使い方(設定)
 適当な場所にフォルダを作成し、ランダムで表示したい画像をその中に入れます。
 Make dircetory for your favorite pictures, and copy pictures to there.
@@ -33,6 +37,6 @@ M-x random-splash-image-reopen-screen
     - 表示しようとしていた画像を直接Emacsで表示できるか確認してください。
 
 # TODO
-- [] パッケージ化
-- [] ネットワーク越しに画像フォルダを指定(必要？)
+- [ ] パッケージ化
+- [ ] ネットワーク越しに画像フォルダを指定(必要？)
 
