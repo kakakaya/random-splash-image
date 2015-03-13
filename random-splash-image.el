@@ -4,9 +4,10 @@
 
 ;; Author: kakakaya <kakakaya AT gmail.com>
 ;; Keywords: games
+;; Version: 1.0.0
+;; URL: https://github.com/kakakaya/random-splah-image
 
-;;; Commentary:
-
+;; Licence:
 ;; The MIT License (MIT)
 
 ;; Copyright (c) 2015 kakakaya
