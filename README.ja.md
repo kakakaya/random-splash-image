@@ -1,5 +1,6 @@
 # random-splash-image
-Emacsの起動画面(GNU Emacsバッファ)の画像をランダムに変更します。
+Emacsの起動画面(GNU Emacsバッファ)の画像を指定したフォルダの中からランダムに選択し、表示します。
+
 ## 他言語版マニュアル:
 英語版が最新のはずです。
 - [English](README.md)
@@ -24,7 +25,7 @@ cp $HOME/Pictures/my_no{002-100}_picture.png $HOME/.emacs.d/splash-images
 ```
 
 # 使い方(その他)
-もし、もう一度GNU Emacsのバッファを別の画像と共に表示しなおしたい場合、バッファを一度killしてから以下のコマンドを実行してください。
+もし、もう一度GNU Emacsのバッファを別の画像と共に表示し直したい場合、バッファを一度killしてから以下のコマンドを実行してください。
 ```
 M-x random-splash-image-reopen-screen
 ```
