@@ -1,5 +1,6 @@
 # random-splash-image
 [![MELPA](http://melpa.org/packages/random-splash-image-badge.svg)](http://melpa.org/#/random-splash-image)
+
 It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).
 
 ## Other Languare Manual:
@@ -7,8 +8,11 @@ It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).
 - [日本語](README.ja.md)
 
 # Screenshots
-![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-1.png)
-![screenshot 2](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-2.png)
+As below, the pictures changes without modifying config file.
+![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss1.png)
+![screenshot 2](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss2.png)
+![screenshot 3](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss3.png)
+![screenshot 4](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss4.png)
 
 # How to use (config)
 Make directory for your favorite pictures, and copy pictures to there.

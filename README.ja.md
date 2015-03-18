@@ -1,5 +1,6 @@
 # random-splash-image
 [![MELPA](http://melpa.org/packages/random-splash-image-badge.svg)](http://melpa.org/#/random-splash-image)
+
 Emacsの起動画面(GNU Emacsバッファ)の画像を指定したフォルダの中からランダムに選択し、表示します。
 
 ## 他言語版マニュアル:
@@ -8,8 +9,11 @@ Emacsの起動画面(GNU Emacsバッファ)の画像を指定したフォルダ�
 - [日本語](README.ja.md)
 
 # Screenshots
-![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-1.png)
-![screenshot 2](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/rsi-ss-2.png)
+以下のように、設定を変更せずにランダムに画像が表示されます。
+![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss1.png)
+![screenshot 2](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss2.png)
+![screenshot 3](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss3.png)
+![screenshot 4](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss4.png)
 
 # 使い方(設定)
 適当な場所にフォルダを作成し、ランダムで表示したい画像をその中に入れます。
