@@ -39,4 +39,5 @@ M-x random-splash-image-reopen-screen
 
 # TODO
 - [x] パッケージ化
+- [ ] 大きい画像の自動リサイズ(メモ: display-monitor-attributes-listを使う)
 - [ ] ネットワーク越しに画像フォルダを指定(必要？)

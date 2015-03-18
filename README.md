@@ -38,4 +38,5 @@ M-x random-splash-image-reopen-screen
 
 # TODO
 - [x] Packaging
+- [ ] Auto-Resize large picture(using display-monitor-attributes-list).
 - [ ] Over-Network splash image(really need?)
