@@ -5,7 +5,7 @@
 ;; Author: kakakaya <kakakaya AT gmail.com>
 ;; Keywords: games
 ;; Version: 1.0.0
-;; URL: https://github.com/kakakaya/random-splah-image
+;; URL: https://github.com/kakakaya/random-splash-image
 
 ;; Licence:
 ;; The MIT License (MIT)
