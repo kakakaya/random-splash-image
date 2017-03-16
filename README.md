@@ -3,10 +3,6 @@
 
 It randomizes Emacs's splash image on startup screen(GNU Emacs buffer).
 
-## Other Languare Manual:
-- [English](README.md)
-- [日本語](README.ja.md)
-
 # Screenshots
 As below, the pictures changes without modifying config file.
 ![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss1.png)
@@ -44,3 +40,7 @@ M-x random-splash-image-reopen-screen
 - [x] Packaging
 - [ ] Auto-Resize large picture(using display-monitor-attributes-list).
 - [ ] Over-Network splash image(really need?)
+
+# Other Languare Manual:
+- [English](README.md)
+- [日本語](README.ja.md)

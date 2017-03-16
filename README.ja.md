@@ -3,11 +3,6 @@
 
 Emacsの起動画面(GNU Emacsバッファ)の画像を指定したフォルダの中からランダムに選択し、表示します。
 
-## 他言語版マニュアル:
-英語版が最新のはずです。
-- [English](README.md)
-- [日本語](README.ja.md)
-
 # Screenshots
 以下のように、設定を変更せずにランダムに画像が表示されます。
 ![screenshot 1](https://raw.githubusercontent.com/kakakaya/random-splash-image/master/ss1.png)
@@ -45,3 +40,8 @@ M-x random-splash-image-reopen-screen
 - [x] パッケージ化
 - [ ] 大きい画像の自動リサイズ(メモ: display-monitor-attributes-listを使う)
 - [ ] ネットワーク越しに画像フォルダを指定(必要？)
+
+# 他言語版マニュアル:
+英語版が最新のはずです。
+- [English](README.md)
+- [日本語](README.ja.md)
