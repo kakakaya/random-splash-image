@@ -31,7 +31,7 @@ M-x random-splash-image-reopen-screen
 ```
 
 # FAQ
-- Q. My pictures doesn't appear! / GNU Emacs buffer disappeared after installation!
+- Q. My pictures don't appear! / GNU Emacs buffer disappeared after installation!
   - A. If used incorrectly, startup buffer might disappear. Try them:
     - Is random-splash-image-dir variable valid? Check by M-x describe-variable.
     - Can your picture opened by emacs? Try to open directly.
@@ -41,6 +41,6 @@ M-x random-splash-image-reopen-screen
 - [ ] Auto-Resize large picture(using display-monitor-attributes-list).
 - [ ] Over-Network splash image(really need?)
 
-# Other Languare Manual:
+# Other Language Manual:
 - [English](README.md)
 - [日本語](README.ja.md)
