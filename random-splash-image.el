@@ -1,16 +1,16 @@
 ;;; random-splash-image.el --- Randomly sets splash image to *GNU Emacs* buffer on startup.
 
-;; Copyright (C) 2015  kakakaya
+;; Copyright (C) 2015-2024  kakakaya
 
 ;; Author: kakakaya <kakakaya AT gmail.com>
 ;; Keywords: games
-;; Version: 1.0.0
+;; Version: 1.0.1
 ;; URL: https://github.com/kakakaya/random-splash-image
 
 ;; Licence:
 ;; The MIT License (MIT)
 
-;; Copyright (c) 2015 kakakaya
+;; Copyright (c) 2015-2024 kakakaya
 
 ;; Permission is hereby granted, free of charge, to any person obtaining a copy
 ;; of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,9 @@
 
 ;;; Code:
 (defcustom random-splash-image-dir nil
-  "directory to find splash image randomly."
+  "Directory to find a random splash image.
+This variable specifies the directory where the splash image will be randomly chosen from. If set to `nil`, no splash image will be displayed.
+The value should be a directory path."
   :group 'fancy-splash-screen
   :type '(choice
           (const     :tag "None" nil)
@@ -51,6 +53,7 @@
     (setq fancy-splash-image (random-splash-image-choose-image random-splash-image-dir))))
 
 (defun random-splash-image-reopen-screen ()
+  "Reopens the screen with new random splash image."
   (interactive)
   (random-splash-image-set)
   (display-startup-screen))
